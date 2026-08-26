@@ -82,7 +82,7 @@ h1, h2, h3 {
   height: 72px;
 }
 .brand { display: flex; align-items: center; }
-.brand-logo { height: 26px; width: auto; }
+.brand-logo { height: 44px; width: auto; }
 .site-nav { display: flex; gap: 28px; }
 .site-nav a {
   font-family: var(--font-head);
