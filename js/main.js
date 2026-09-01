@@ -29,7 +29,7 @@ function closeLightbox() {
   document.body.style.overflow = '';
 }
 
-document.querySelectorAll('.project-media img, .klussen-grid img').forEach((img) => {
+document.querySelectorAll('.project-media img, .klussen-grid img, .product-media img, .product-drawing img').forEach((img) => {
   img.addEventListener('click', () => openLightbox(img.src, img.alt));
 });
 lightboxClose.addEventListener('click', closeLightbox);
